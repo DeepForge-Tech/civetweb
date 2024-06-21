@@ -2,6 +2,7 @@
 # civetweb
 build/
 out/
+VisualStudio/civetweb/
 civetweb_test
 libcivetweb.a
 libcivetweb.so
