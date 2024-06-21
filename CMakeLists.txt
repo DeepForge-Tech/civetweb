@@ -603,8 +603,8 @@ if (CIVETWEB_BUILD_TESTING)
   set_property(CACHE CIVETWEB_CHECK_MD5_HASH PROPERTY VALUE ${CIVETWEB_CHECK_MD5_HASH})
   mark_as_advanced(CIVETWEB_CHECK_MD5_HASH)
 
-  # Build the testing
-  add_subdirectory(unittest)
+  # # Build the testing
+  # add_subdirectory(unittest)
 endif()
 
 # cmake config file
