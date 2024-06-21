@@ -1,5 +1,7 @@
 
-civetweb
+# civetweb
+build/
+out/
 civetweb_test
 libcivetweb.a
 libcivetweb.so
