@@ -6,7 +6,7 @@ cmake_policy(SET CMP0057 NEW)
 
 # Set up the project
 project (civetweb VERSION 1.16.0)
-
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 # Detect the platform reliably
 if(ZEPHYR_BASE)
     if (NOT CONFIG_CIVETWEB)
